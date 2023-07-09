@@ -8,7 +8,7 @@ import {IDish} from "./interfaces/dish.interface";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  private readonly imageUrl = './assets/images';
+  private readonly imageUrl = '/cafe-badu/assets/images';
 
   saladsSectionDishes: IDish[] = [
     {
