@@ -1,0 +1,15 @@
+{
+  "saladsSection": {
+    "title": "Cалаты и холодные закуски",
+    "tomatoCucumber": "Салат из огурцов и помидоров",
+    "tomatoCucumberWalnuts": "Салат из огурцов и помидоров с орехами",
+    "eggplant": "Салат из баклажанов",
+    "eggplantWalnuts": "Салат из баклажанов с орехами",
+    "chicken": "Салат из курицы",
+    "caesar": "Цезарь",
+    "yogurt": "Мацони",
+    "sourYogurt": "Сметана",
+    "suluguni": "Сыр сулугуни",
+    "imeretian": "Имеретинский сыр"
+  }
+}

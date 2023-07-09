@@ -1,0 +1,26 @@
+<div class="page-container">
+  <header class="page-header">
+    <span class="header-title">Cafe Badu</span>
+    <div class="translate-buttons">
+      <button class="icon-button" (click)="changeLanguage('en')">
+        <mat-icon svgIcon="en"></mat-icon>
+      </button>
+      <button class="icon-button" (click)="changeLanguage('ru')">
+        <mat-icon svgIcon="ru"></mat-icon>
+      </button>
+      <button class="icon-button" (click)="changeLanguage('ge')">
+        <mat-icon svgIcon="ge"></mat-icon>
+      </button>
+    </div>
+  </header>
+  <div class="page-content">
+    <h2 class="section-title">{{ 'saladsSection.title' | translate }}</h2>
+    <div class="dish-list">
+      <div *ngFor="let dish of saladsSectionDishes" class="dish-item">
+        <img src="{{dish.imagePath}}" alt="Dish">
+        <span class="dish-name">{{ dish.dishName | translate }}</span>
+        <span class="dish-price">₾{{ dish.price }}</span>
+      </div>
+    </div>
+  </div>
+</div>
