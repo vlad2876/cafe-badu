@@ -11,5 +11,22 @@
     "sourYogurt": "Sour yogurt",
     "suluguni": "Suluguni cheese",
     "imeretian": "Imeretian cheese"
+  },
+  "soupSection": {
+    "title": "Soup",
+    "vegetable": "Vegetable soup",
+    "chicken": "Chicken soup",
+    "okroshka": "Okroshka",
+    "gupta": "Gupta soup",
+    "kharcho": "Kharcho"
+  },
+  "doughSection": {
+    "title": "Dough dishes",
+    "bread": "Bread",
+    "mchadi": "Mchadi",
+    "chvishtar": "Chvishtar",
+    "adjarianKhachapuri": "Adjarian khachapuri",
+    "imeretianKhachapuri": "Imeretian khachapuri",
+    "megrelianKhachapuri": "Megrelian khachapuri"
   }
 }

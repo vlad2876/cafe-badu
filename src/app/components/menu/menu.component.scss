@@ -1,0 +1,45 @@
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex-grow: 1;
+  padding: 40px;
+
+  .menu-section {
+    .section-title {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      margin-bottom: 10px;
+    }
+
+    .dish-list {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+      grid-gap: 40px;
+
+      .dish-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2), 0 0 1px 0 rgba(0, 0, 0, 0.3);
+        text-align: center;
+        font-weight: 500;
+
+        img {
+          border-radius: 10px;
+          width: 100%;
+        }
+
+        .dish-price {
+          font-style: italic;
+          font-size: 22px;
+          color: #DB504A;
+        }
+      }
+    }
+  }
+}
