@@ -1,45 +1,46 @@
+@import "src/app/styles/colors";
+
 .menu-container {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
   flex-grow: 1;
-  padding: 40px;
+  padding: 30px;
 
   .menu-section {
-    .section-title {
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-      margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px $box-shadow-color, 0 0 1px 0 $box-shadow-color2;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 10px;
+      z-index: -1
     }
 
-    .dish-list {
-      width: 100%;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
-      grid-gap: 40px;
-
-      .dish-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        gap: 10px;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2), 0 0 1px 0 rgba(0, 0, 0, 0.3);
-        text-align: center;
-        font-weight: 500;
-
-        img {
-          border-radius: 10px;
-          width: 100%;
-        }
-
-        .dish-price {
-          font-style: italic;
-          font-size: 22px;
-          color: #DB504A;
-        }
-      }
+    .section-name {
+      color: white;
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: 500;
+      text-shadow: 2px 2px 4px $text-shadow-color;
     }
   }
 }

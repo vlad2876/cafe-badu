@@ -1,13 +1,5 @@
 @import "styles/colors";
 
-@font-face {
-  font-family: 'BrittanySignature';
-  src: url('../assets/fonts/BrittanySignature.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
 .page-container {
   display: flex;
   flex-direction: column;
@@ -19,13 +11,12 @@
     position: sticky;
     top: 0;
     background-color: $page-header-bg-color;
-    padding: 30px;
+    padding: 20px;
     box-sizing: border-box;
 
-    .header-title {
-      font-family: 'BrittanySignature', sans-serif;
-      color: $page-header-text-color;
-      font-size: 24px;
+    .logo {
+      cursor: pointer;
+      width: 80px;
     }
 
     .translate-buttons {

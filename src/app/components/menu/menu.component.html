@@ -1,32 +1,17 @@
 <div class="menu-container">
-  <div class="menu-section">
-    <h2 class="section-title">{{ 'saladsSection.title' | translate }}</h2>
-    <div class="dish-list">
-      <div *ngFor="let dish of saladsSectionDishes" class="dish-item">
-        <img src="{{dish.imagePath}}" alt="Dish">
-        <span class="dish-name">{{ dish.dishName | translate }}</span>
-        <span class="dish-price">₾{{ dish.price }}</span>
-      </div>
-    </div>
+  <div class="menu-section" routerLink="salads" [style.background-image]="'url(' + saladsSectionBackgroundImage + ')'">
+    <span class="section-name">
+      {{ 'saladsSection.title' | translate }}
+    </span>
   </div>
-  <div class="menu-section">
-    <h2 class="section-title">{{ 'soupSection.title' | translate }}</h2>
-    <div class="dish-list">
-      <div *ngFor="let dish of soupSectionDishes" class="dish-item">
-        <img src="{{dish.imagePath}}" alt="Dish">
-        <span class="dish-name">{{ dish.dishName | translate }}</span>
-        <span class="dish-price">₾{{ dish.price }}</span>
-      </div>
-    </div>
+  <div class="menu-section" routerLink="soup" [style.background-image]="'url(' + soupSectionBackgroundImage + ')'">
+    <span class="section-name">
+      {{ 'soupSection.title' | translate }}
+    </span>
   </div>
-  <div class="menu-section">
-    <h2 class="section-title">{{ 'doughSection.title' | translate }}</h2>
-    <div class="dish-list">
-      <div *ngFor="let dish of doughSectionDishes" class="dish-item">
-        <img src="{{dish.imagePath}}" alt="Dish">
-        <span class="dish-name">{{ dish.dishName | translate }}</span>
-        <span class="dish-price">₾{{ dish.price }}</span>
-      </div>
-    </div>
+  <div class="menu-section" routerLink="dough" [style.background-image]="'url(' + doughSectionBackgroundImage + ')'">
+    <span class="section-name">
+      {{ 'doughSection.title' | translate }}
+    </span>
   </div>
 </div>
