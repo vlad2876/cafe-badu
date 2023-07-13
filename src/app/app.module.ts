@@ -29,7 +29,7 @@ import { DoughSectionComponent } from './components/menu/dough-section/dough-sec
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  private readonly iconsPath: string = "assets/icons";
+  private readonly iconsPath: string = "/cafe-badu/assets/icons";
 
   constructor(private matIconRegistry: MatIconRegistry, private domSanitizer: DomSanitizer) {
     matIconRegistry.addSvgIcon('en', this.setPath(`${this.iconsPath}/en.svg`));
