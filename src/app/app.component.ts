@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {TranslationService} from "./shared/translation/translation.service";
-import {IDish} from "./interfaces/dish.interface";
 
 @Component({
   selector: 'app-root',
