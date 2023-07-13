@@ -11,5 +11,22 @@
     "sourYogurt": "არაჟანი",
     "suluguni": "სულგუნი ყველი",
     "imeretian": "იმერული ყველი"
+  },
+  "soupSection": {
+    "title": "წვნიანი",
+    "vegetable": "ბოსტნეულის სუპი",
+    "chicken": "ქათმის ბულიონი",
+    "okroshka": "აკროშკა",
+    "gupta": "გუფთის ბულიონი",
+    "kharcho": "სუპხარჩო"
+  },
+  "doughSection": {
+    "title": "ცომეული",
+    "bread": "პური",
+    "mchadi": "მჭადი",
+    "chvishtar": "ჭვიშტარი",
+    "adjarianKhachapuri": "აჭარული ხაჭაპური",
+    "imeretianKhachapuri": "იმერული ხაჭაპური",
+    "megrelianKhachapuri": "მეგრული ხაჭაპური"
   }
 }
