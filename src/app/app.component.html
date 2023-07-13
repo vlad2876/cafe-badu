@@ -1,6 +1,6 @@
 <div class="page-container">
   <header class="page-header">
-    <span class="header-title">Cafe Badu</span>
+    <img class="logo" src="assets/images/logo.png" alt="Logo" routerLink="menu">
     <div class="translate-buttons">
       <button class="icon-button" (click)="changeLanguage('en')">
         <mat-icon svgIcon="en"></mat-icon>
@@ -13,14 +13,5 @@
       </button>
     </div>
   </header>
-  <div class="page-content">
-    <h2 class="section-title">{{ 'saladsSection.title' | translate }}</h2>
-    <div class="dish-list">
-      <div *ngFor="let dish of saladsSectionDishes" class="dish-item">
-        <img src="{{dish.imagePath}}" alt="Dish">
-        <span class="dish-name">{{ dish.dishName | translate }}</span>
-        <span class="dish-price">₾{{ dish.price }}</span>
-      </div>
-    </div>
-  </div>
+  <router-outlet></router-outlet>
 </div>

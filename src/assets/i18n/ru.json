@@ -11,5 +11,22 @@
     "sourYogurt": "Сметана",
     "suluguni": "Сыр сулугуни",
     "imeretian": "Имеретинский сыр"
+  },
+  "soupSection": {
+    "title": "Суп",
+    "vegetable": "Овощной cyп",
+    "chicken": "Куриный бульон",
+    "okroshka": "Окрошка",
+    "gupta": "Суп-гупта",
+    "kharcho": "Суп-харчо"
+  },
+  "doughSection": {
+    "title": "Блюда из теста",
+    "bread": "Хлеб",
+    "mchadi": "Мчади",
+    "chvishtar": "Чвиштари",
+    "adjarianKhachapuri": "Хачапури по-аджарски",
+    "imeretianKhachapuri": "Хачапури по-имеретински",
+    "megrelianKhachapuri": "Хачапури по-мегрельски"
   }
 }

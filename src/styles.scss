@@ -1,3 +1,5 @@
+@import "app/styles/colors";
+
 html, body {
   height: 100%;
 }
@@ -5,4 +7,64 @@ html, body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.section-title {
+  text-shadow: 2px 2px 4px $text-shadow-color;
+  margin-bottom: 5px;
+}
+
+.dish-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+  grid-gap: 30px;
+
+  .dish-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px $box-shadow-color, 0 0 1px 0 $box-shadow-color2;
+    text-align: center;
+    font-weight: 500;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 10px;
+      z-index: -1;
+    }
+
+    img {
+      border-radius: 10px;
+      width: 100%;
+    }
+
+    .dish-price {
+      font-style: italic;
+      font-size: 22px;
+      color: $dish-price-color;
+      text-shadow: 2px 2px 4px $text-shadow-color;
+    }
+
+    .dish-name {
+      font-size: 16px;
+      color: white;
+      text-shadow: 2px 2px 4px $text-shadow-color;
+    }
+  }
 }

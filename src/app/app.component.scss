@@ -1,15 +1,8 @@
-@font-face {
-  font-family: 'BrittanySignature';
-  src: url('../assets/fonts/BrittanySignature.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
+@import "styles/colors";
 
 .page-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 
   .page-header {
     display: flex;
@@ -17,72 +10,28 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
-    background-color: #212D40;
+    background-color: $page-header-bg-color;
     padding: 20px;
     box-sizing: border-box;
 
-    .header-title {
-      font-family: 'BrittanySignature', sans-serif;
-      color: #fff;
-      font-size: 24px;
+    .logo {
+      cursor: pointer;
+      width: 80px;
     }
 
     .translate-buttons {
+      display: flex;
+      gap: 10px;
+
       .icon-button {
         border: none;
         background-color: transparent;
         padding: 0;
-        margin: 0 5px;
+        margin: 0;
         cursor: pointer;
 
         &:focus {
           outline: none;
-        }
-      }
-    }
-  }
-
-  .page-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
-    padding: 40px;
-
-    .dish-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 40px;
-
-      @media (max-width: 820px) {
-        justify-content: space-between;
-      }
-
-      .dish-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        gap: 10px;
-        text-align: center;
-
-        @media (max-width: 820px) {
-          width: calc(50% - 20px);
-        }
-
-        img {
-          max-width: 135px;
-          max-height: 75px;
-        }
-
-        .dish-name {
-          font-weight: 700;
-        }
-
-        .dish-price {
-          font-style: italic;
-          font-size: 22px;
-          color: #FF601F;
         }
       }
     }
