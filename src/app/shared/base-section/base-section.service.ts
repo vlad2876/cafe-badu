@@ -28,11 +28,11 @@ export class BaseSectionService {
       }, {
         imagePath: `${this.baseImagePath}/imeretianKhachapuri.jpg`,
         dishName: 'doughSection.imeretianKhachapuri',
-        price: 15
+        price: 13
       }, {
         imagePath: `${this.baseImagePath}/megrelianKhachapuri.jpg`,
         dishName: 'doughSection.megrelianKhachapuri',
-        price: 16
+        price: 15
       }
     ];
   }
@@ -46,7 +46,7 @@ export class BaseSectionService {
       }, {
         imagePath: `${this.baseImagePath}/tomatoCucumberWalnuts.jpg`,
         dishName: 'saladsSection.tomatoCucumberWalnuts',
-        price: 5
+        price: 6
       }, {
         imagePath: `${this.baseImagePath}/eggplant.jpg`,
         dishName: 'saladsSection.eggplant',
@@ -58,11 +58,11 @@ export class BaseSectionService {
       }, {
         imagePath: `${this.baseImagePath}/chicken.jpg`,
         dishName: 'saladsSection.chicken',
-        price: 10
+        price: 8
       }, {
         imagePath: `${this.baseImagePath}/caesar.jpg`,
         dishName: 'saladsSection.caesar',
-        price: 10
+        price: 12
       }
     ];
   }
@@ -76,7 +76,7 @@ export class BaseSectionService {
       }, {
         imagePath: `${this.baseImagePath}/chickenSoup.jpg`,
         dishName: 'soupSection.chicken',
-        price: 6
+        price: 5
       }, {
         imagePath: `${this.baseImagePath}/gupta.jpg`,
         dishName: 'soupSection.gupta',
@@ -94,19 +94,19 @@ export class BaseSectionService {
       {
         imagePath: `${this.baseImagePath}/chashushuli.jpg`,
         dishName: 'hotDishesSection.chashushuli',
-        price: 4
+        price: 12
       }, {
         imagePath: `${this.baseImagePath}/ostri.jpg`,
         dishName: 'hotDishesSection.ostri',
-        price: 6
+        price: 12
       }, {
         imagePath: `${this.baseImagePath}/ojakhuri.jpg`,
         dishName: 'hotDishesSection.ojakhuri',
-        price: 6
+        price: 10
       }, {
         imagePath: `${this.baseImagePath}/chakhokhbili.jpg`,
         dishName: 'hotDishesSection.chakhokhbili',
-        price: 8
+        price: 10
       }, {
         imagePath: `${this.baseImagePath}/beans.jpg`,
         dishName: 'hotDishesSection.beans',
@@ -114,31 +114,31 @@ export class BaseSectionService {
       }, {
         imagePath: `${this.baseImagePath}/chickenKiev.jpg`,
         dishName: 'hotDishesSection.chickenKiev',
-        price: 8
+        price: 12
       }, {
         imagePath: `${this.baseImagePath}/dumplings.jpg`,
         dishName: 'hotDishesSection.dumplings',
-        price: 8
+        price: 10
       }, {
         imagePath: `${this.baseImagePath}/ajapsandal.jpg`,
         dishName: 'hotDishesSection.ajapsandal',
-        price: 8
+        price: 7
       }, {
         imagePath: `${this.baseImagePath}/tabaka.jpg`,
         dishName: 'hotDishesSection.tabaka',
-        price: 8
+        price: 20
       }, {
         imagePath: `${this.baseImagePath}/chkmeruli.jpg`,
         dishName: 'hotDishesSection.chkmeruli',
-        price: 8
+        price: 25
       }, {
         imagePath: `${this.baseImagePath}/frenchFries.jpg`,
         dishName: 'hotDishesSection.frenchFries',
-        price: 8
+        price: 4
       }, {
         imagePath: `${this.baseImagePath}/friedSulguni.jpg`,
         dishName: 'hotDishesSection.friedSulguni',
-        price: 8
+        price: 10
       }
     ];
   }
@@ -148,15 +148,15 @@ export class BaseSectionService {
       {
         imagePath: `${this.baseImagePath}/porkBbq.jpg`,
         dishName: 'barbecueSection.porkBbq',
-        price: 4
+        price: 15
       }, {
         imagePath: `${this.baseImagePath}/chickenBbq.jpg`,
         dishName: 'barbecueSection.chickenBbq',
-        price: 6
+        price: 12
       }, {
         imagePath: `${this.baseImagePath}/grilledVegetables.jpg`,
         dishName: 'barbecueSection.grilledVegetables',
-        price: 6
+        price: 10
       }
     ];
   }
@@ -166,23 +166,23 @@ export class BaseSectionService {
       {
         imagePath: `${this.baseImagePath}/troutSideDish.jpg`,
         dishName: 'fishSection.troutSideDish',
-        price: 4
+        price: 15
       }, {
         imagePath: `${this.baseImagePath}/troutLemonJuice.jpg`,
         dishName: 'fishSection.troutLemonJuice',
-        price: 6
+        price: 15
       }, {
         imagePath: `${this.baseImagePath}/friedTrout.jpg`,
         dishName: 'fishSection.friedTrout',
-        price: 6
+        price: 12
       }, {
         imagePath: `${this.baseImagePath}/barabulka.jpg`,
         dishName: 'fishSection.barabulka',
-        price: 6
+        price: 0
       }, {
         imagePath: `${this.baseImagePath}/mullet.jpg`,
         dishName: 'fishSection.mullet',
-        price: 6
+        price: 0
       }
     ];
   }
@@ -192,35 +192,35 @@ export class BaseSectionService {
       {
         imagePath: `${this.baseImagePath}/redWine.jpg`,
         dishName: 'alcoholSection.redWine',
-        price: 4
+        price: 5
       }, {
         imagePath: `${this.baseImagePath}/whiteWine.jpg`,
         dishName: 'alcoholSection.whiteWine',
-        price: 6
+        price: 5
       }, {
         imagePath: `${this.baseImagePath}/chaChaSm.jpg`,
         dishName: 'alcoholSection.chaChaSm',
-        price: 6
+        price: 2
       }, {
         imagePath: `${this.baseImagePath}/chaChaLg.jpg`,
         dishName: 'alcoholSection.chaChaLg',
-        price: 6
+        price: 20
       }, {
         imagePath: `${this.baseImagePath}/cognacSm.jpg`,
         dishName: 'alcoholSection.cognacSm',
-        price: 6
+        price: 3
       }, {
         imagePath: `${this.baseImagePath}/cognacLg.jpg`,
         dishName: 'alcoholSection.cognacLg',
-        price: 6
+        price: 30
       }, {
         imagePath: `${this.baseImagePath}/argo.jpg`,
         dishName: 'alcoholSection.argo',
-        price: 6
+        price: 5
       }, {
         imagePath: `${this.baseImagePath}/herzog.jpg`,
         dishName: 'alcoholSection.herzog',
-        price: 6
+        price: 5
       }
     ];
   }
