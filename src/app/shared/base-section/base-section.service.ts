@@ -142,4 +142,86 @@ export class BaseSectionService {
       }
     ];
   }
+
+  getBarbecueSectionDishes(): IDish[] {
+    return [
+      {
+        imagePath: `${this.baseImagePath}/porkBbq.jpg`,
+        dishName: 'barbecueSection.porkBbq',
+        price: 4
+      }, {
+        imagePath: `${this.baseImagePath}/chickenBbq.jpg`,
+        dishName: 'barbecueSection.chickenBbq',
+        price: 6
+      }, {
+        imagePath: `${this.baseImagePath}/grilledVegetables.jpg`,
+        dishName: 'barbecueSection.grilledVegetables',
+        price: 6
+      }
+    ];
+  }
+
+  getFishSectionDishes(): IDish[] {
+    return [
+      {
+        imagePath: `${this.baseImagePath}/troutSideDish.jpg`,
+        dishName: 'fishSection.troutSideDish',
+        price: 4
+      }, {
+        imagePath: `${this.baseImagePath}/troutLemonJuice.jpg`,
+        dishName: 'fishSection.troutLemonJuice',
+        price: 6
+      }, {
+        imagePath: `${this.baseImagePath}/friedTrout.jpg`,
+        dishName: 'fishSection.friedTrout',
+        price: 6
+      }, {
+        imagePath: `${this.baseImagePath}/barabulka.jpg`,
+        dishName: 'fishSection.barabulka',
+        price: 6
+      }, {
+        imagePath: `${this.baseImagePath}/mullet.jpg`,
+        dishName: 'fishSection.mullet',
+        price: 6
+      }
+    ];
+  }
+
+  getAlcoholSectionDishes(): IDish[] {
+    return [
+      {
+        imagePath: `${this.baseImagePath}/redWine.jpg`,
+        dishName: 'alcoholSection.redWine',
+        price: 4
+      }, {
+        imagePath: `${this.baseImagePath}/whiteWine.jpg`,
+        dishName: 'alcoholSection.whiteWine',
+        price: 6
+      }, {
+        imagePath: `${this.baseImagePath}/chaChaSm.jpg`,
+        dishName: 'alcoholSection.chaChaSm',
+        price: 6
+      }, {
+        imagePath: `${this.baseImagePath}/chaChaLg.jpg`,
+        dishName: 'alcoholSection.chaChaLg',
+        price: 6
+      }, {
+        imagePath: `${this.baseImagePath}/cognacSm.jpg`,
+        dishName: 'alcoholSection.cognacSm',
+        price: 6
+      }, {
+        imagePath: `${this.baseImagePath}/cognacLg.jpg`,
+        dishName: 'alcoholSection.cognacLg',
+        price: 6
+      }, {
+        imagePath: `${this.baseImagePath}/argo.jpg`,
+        dishName: 'alcoholSection.argo',
+        price: 6
+      }, {
+        imagePath: `${this.baseImagePath}/herzog.jpg`,
+        dishName: 'alcoholSection.herzog',
+        price: 6
+      }
+    ];
+  }
 }

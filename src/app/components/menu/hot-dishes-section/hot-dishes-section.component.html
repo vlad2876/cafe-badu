@@ -1,5 +1,5 @@
 <div class="page-container">
-  <h2 class="section-title">{{ 'doughSection.title' | translate }}</h2>
+  <h2 class="section-title">{{ 'hotDishesSection.title' | translate }}</h2>
   <div class="dish-list">
     <div *ngFor="let dish of hotSectionDishes" class="dish-item" (click)="expandDish(dish.imagePath)"
          [style.background-image]="'url(' + dish.imagePath + ')'">

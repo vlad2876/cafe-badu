@@ -19,4 +19,19 @@
       {{ 'hotDishesSection.title' | translate }}
     </span>
   </div>
+  <div class="menu-section" routerLink="barbecue" [style.background-image]="'url(' + barbecueSectionBackgroundImage + ')'">
+    <span class="section-name">
+      {{ 'barbecueSection.title' | translate }}
+    </span>
+  </div>
+  <div class="menu-section" routerLink="fish" [style.background-image]="'url(' + fishSectionBackgroundImage + ')'">
+    <span class="section-name">
+      {{ 'fishSection.title' | translate }}
+    </span>
+  </div>
+  <div class="menu-section" routerLink="alcohol" [style.background-image]="'url(' + alcoholSectionBackgroundImage + ')'">
+    <span class="section-name">
+      {{ 'alcoholSection.title' | translate }}
+    </span>
+  </div>
 </div>

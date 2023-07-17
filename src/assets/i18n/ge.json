@@ -43,5 +43,30 @@
     "chkmeruli": "ჩქმერული",
     "frenchFries": "ფრი",
     "friedSulguni": "შემწვარი სულგუნი"
+  },
+  "barbecueSection": {
+    "title": "მნვადი",
+    "porkBbq": "ღორის მწვადი",
+    "chickenBbq": "ქათმის მწვადი",
+    "grilledVegetables": "ბოსტნეულის მწვადი"
+  },
+  "fishSection": {
+    "title": "თევზის კერძები",
+    "troutSideDish": "კალმახი გარნირით",
+    "troutLemonJuice": "კალმახი ლიმნის წვენში",
+    "friedTrout": "კალმახი",
+    "barabulka": "ბარაბულკა",
+    "mullet": "კეფალი"
+  },
+  "alcoholSection": {
+    "title": "ალკოჰოლური სასმელები",
+    "redWine": "წითელი ღვინო (1 ჭიქა)",
+    "whiteWine": "თეთრი ღვინო (1 ჭიქა)",
+    "chaChaSm": "ჭაჭა (100 გრ)",
+    "chaChaLg": "ჭაჭა ( 1 ლ)",
+    "cognacSm": "კონიაკი (100 გრ)",
+    "cognacLg": "კონიაკი (1 ლ)",
+    "argo": "ლუდი არგო",
+    "herzog": "ლუდი ჰერცოგი"
   }
 }

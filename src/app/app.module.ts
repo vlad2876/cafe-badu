@@ -11,6 +11,9 @@ import { SoupSectionComponent } from './components/menu/soup-section/soup-sectio
 import { DoughSectionComponent } from './components/menu/dough-section/dough-section.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HotDishesSectionComponent } from './components/menu/hot-dishes-section/hot-dishes-section.component';
+import { BarbecueSectionComponent } from './components/menu/barbecue-section/barbecue-section.component';
+import { FishSectionComponent } from './components/menu/fish-section/fish-section.component';
+import { AlcoholSectionComponent } from './components/menu/alcohol-section/alcohol-section.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { HotDishesSectionComponent } from './components/menu/hot-dishes-section/
     SoupSectionComponent,
     DoughSectionComponent,
     HeaderComponent,
-    HotDishesSectionComponent
+    HotDishesSectionComponent,
+    BarbecueSectionComponent,
+    FishSectionComponent,
+    AlcoholSectionComponent
   ],
   imports: [
     BrowserModule,
