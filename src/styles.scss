@@ -1,5 +1,23 @@
 @import "app/styles/colors";
 
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInScale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 html, body {
   height: 100%;
 }
@@ -68,3 +86,33 @@ body {
     }
   }
 }
+
+.expanded-image-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  padding: 10px;
+  box-sizing: border-box;
+
+  .expanded-image {
+    max-width: calc(100% - 20px);
+    max-height: calc(100% - 20px);
+    border-radius: 10px;
+  }
+
+  &.show {
+    animation: fadeInOpacity 0.4s ease;
+
+    .expanded-image {
+      animation: fadeInScale 0.4s ease;
+    }
+  }
+}
+

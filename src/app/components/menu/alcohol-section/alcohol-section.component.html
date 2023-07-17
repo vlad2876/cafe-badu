@@ -1,0 +1,15 @@
+<div class="page-container">
+  <h2 class="section-title">{{ 'alcoholSection.title' | translate }}</h2>
+  <div class="dish-list">
+    <div *ngFor="let dish of alcoholSectionDishes" class="dish-item" (click)="expandDish(dish.imagePath)"
+         [style.background-image]="'url(' + dish.imagePath + ')'">
+      <span class="dish-name">{{ dish.dishName | translate }}</span>
+      <span class="dish-price">₾{{ dish.price }}</span>
+    </div>
+  </div>
+  <ng-container *ngIf="expandedDishPath">
+    <div class="expanded-image-overlay" [class.show]="expandedDishPath" (click)="closeExpandedDish()">
+      <img class="expanded-image" [src]="expandedDishPath" alt="Dish">
+    </div>
+  </ng-container>
+</div>
