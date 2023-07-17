@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {TranslationService} from "./shared/translation/translation.service";
-import {IDish} from "./interfaces/dish.interface";
 
 @Component({
   selector: 'app-root',
@@ -13,9 +12,5 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.translationService.initializeTranslation();
-  }
-
-  changeLanguage(language: string): void {
-    this.translationService.setLanguage(language);
   }
 }

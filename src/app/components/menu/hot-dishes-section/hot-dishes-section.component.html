@@ -1,7 +1,7 @@
 <div class="page-container">
-  <h2 class="section-title">{{ 'soupSection.title' | translate }}</h2>
+  <h2 class="section-title">{{ 'doughSection.title' | translate }}</h2>
   <div class="dish-list">
-    <div *ngFor="let dish of soupSectionDishes" class="dish-item" (click)="expandDish(dish.imagePath)"
+    <div *ngFor="let dish of hotSectionDishes" class="dish-item" (click)="expandDish(dish.imagePath)"
          [style.background-image]="'url(' + dish.imagePath + ')'">
       <span class="dish-name">{{ dish.dishName | translate }}</span>
       <span class="dish-price">₾{{ dish.price }}</span>

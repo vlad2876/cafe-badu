@@ -28,5 +28,20 @@
     "adjarianKhachapuri": "Adjarian khachapuri",
     "imeretianKhachapuri": "Imeretian khachapuri",
     "megrelianKhachapuri": "Megrelian khachapuri"
+  },
+  "hotDishesSection": {
+    "title": "Hot dishes",
+    "chashushuli": "Chashushuli",
+    "ostri": "Ostri",
+    "ojakhuri": "Ojakhuri",
+    "chakhokhbili": "Chakhokhbili",
+    "beans": "Beans in a pot",
+    "chickenKiev": "Chicken Kiev",
+    "dumplings": "Dumplings in a pot",
+    "ajapsandal": "Ajapsandal",
+    "tabaka": "Tabaka",
+    "chkmeruli": "Chkmeruli",
+    "frenchFries": "French fries",
+    "friedSulguni": "Fried sulguni"
   }
 }

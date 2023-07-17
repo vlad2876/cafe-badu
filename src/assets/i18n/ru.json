@@ -28,5 +28,20 @@
     "adjarianKhachapuri": "Хачапури по-аджарски",
     "imeretianKhachapuri": "Хачапури по-имеретински",
     "megrelianKhachapuri": "Хачапури по-мегрельски"
+  },
+  "hotDishesSection": {
+    "title": "Горячие блюда",
+    "chashushuli": "Чашушули на кеци",
+    "ostri": "Остри на кеци",
+    "ojakhuri": "Оджахури на кеци",
+    "chakhokhbili": "Чахохбили из курицы",
+    "beans": "Фасоль в горшочке",
+    "chickenKiev": "Котлета по-киевски",
+    "dumplings": "Пельмени в горшочке",
+    "ajapsandal": "Аджапсандали",
+    "tabaka": "Табака",
+    "chkmeruli": "Чкмерули",
+    "frenchFries": "Картофель фри",
+    "friedSulguni": "Жареный сулгуни"
   }
 }

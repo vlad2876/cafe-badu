@@ -1,35 +1,21 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {IDish} from "../../../interfaces/dish.interface";
+import {BaseSectionComponent} from "../../../shared/base-section/base-section.component";
+import {BaseSectionService} from "../../../shared/base-section/base-section.service";
 
 @Component({
   selector: 'app-soup-section',
   templateUrl: './soup-section.component.html',
   styleUrls: ['./soup-section.component.scss']
 })
-export class SoupSectionComponent {
-  private readonly imageUrl = 'assets/images';
+export class SoupSectionComponent extends BaseSectionComponent implements OnInit {
+  soupSectionDishes!: IDish[];
 
-  soupSectionDishes: IDish[] = [
-    {
-      imagePath: `${this.imageUrl}/vegetable.jpg`,
-      dishName: 'soupSection.vegetable',
-      price: 4
-    }, {
-      imagePath: `${this.imageUrl}/chickenSoup.jpg`,
-      dishName: 'soupSection.chicken',
-      price: 6
-    }, {
-      imagePath: `${this.imageUrl}/okroshka.jpg`,
-      dishName: 'soupSection.okroshka',
-      price: 8
-    }, {
-      imagePath: `${this.imageUrl}/gupta.jpg`,
-      dishName: 'soupSection.gupta',
-      price: 6
-    }, {
-      imagePath: `${this.imageUrl}/kharcho.jpg`,
-      dishName: 'soupSection.kharcho',
-      price: 8
-    }
-  ];
+  constructor(private baseSectionService: BaseSectionService) {
+    super();
+  }
+
+  ngOnInit() {
+    this.soupSectionDishes = this.baseSectionService.getSoupSectionDishes();
+  }
 }

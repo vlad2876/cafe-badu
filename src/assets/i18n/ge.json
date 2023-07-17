@@ -28,5 +28,20 @@
     "adjarianKhachapuri": "აჭარული ხაჭაპური",
     "imeretianKhachapuri": "იმერული ხაჭაპური",
     "megrelianKhachapuri": "მეგრული ხაჭაპური"
+  },
+  "hotDishesSection": {
+    "title": "ცხელი კერძები",
+    "chashushuli": "ჩაშუშული კეიზე",
+    "ostri": "ოსტრი კეცზე",
+    "ojakhuri": "ოჯახური კეცზე",
+    "chakhokhbili": "ქათმის ჩახოხბილი",
+    "beans": "ლობიო ქოთანში ",
+    "chickenKiev": "კატლეტი კიევში",
+    "dumplings": "პილმენი ქოთანში",
+    "ajapsandal": "აჯაფსანდალი",
+    "tabaka": "ტაბაკა",
+    "chkmeruli": "ჩქმერული",
+    "frenchFries": "ფრი",
+    "friedSulguni": "შემწვარი სულგუნი"
   }
 }
