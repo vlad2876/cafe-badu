@@ -9,6 +9,11 @@ import { MenuComponent } from './components/menu/menu.component';
 import { SaladsSectionComponent } from './components/menu/salads-section/salads-section.component';
 import { SoupSectionComponent } from './components/menu/soup-section/soup-section.component';
 import { DoughSectionComponent } from './components/menu/dough-section/dough-section.component';
+import { HeaderComponent } from './components/header/header.component';
+import { HotDishesSectionComponent } from './components/menu/hot-dishes-section/hot-dishes-section.component';
+import { BarbecueSectionComponent } from './components/menu/barbecue-section/barbecue-section.component';
+import { FishSectionComponent } from './components/menu/fish-section/fish-section.component';
+import { AlcoholSectionComponent } from './components/menu/alcohol-section/alcohol-section.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { DoughSectionComponent } from './components/menu/dough-section/dough-sec
     MenuComponent,
     SaladsSectionComponent,
     SoupSectionComponent,
-    DoughSectionComponent
+    DoughSectionComponent,
+    HeaderComponent,
+    HotDishesSectionComponent,
+    BarbecueSectionComponent,
+    FishSectionComponent,
+    AlcoholSectionComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +39,7 @@ import { DoughSectionComponent } from './components/menu/dough-section/dough-sec
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  private readonly iconsPath: string = "/cafe-badu/assets/icons";
+  private readonly iconsPath: string = "assets/icons";
 
   constructor(private matIconRegistry: MatIconRegistry, private domSanitizer: DomSanitizer) {
     matIconRegistry.addSvgIcon('en', this.setPath(`${this.iconsPath}/en.svg`));

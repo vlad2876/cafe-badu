@@ -9,4 +9,8 @@ export class MenuComponent {
   readonly saladsSectionBackgroundImage = 'assets/images/tomatoCucumber.jpg';
   readonly soupSectionBackgroundImage = 'assets/images/kharcho.jpg';
   readonly doughSectionBackgroundImage = 'assets/images/adjarianKhachapuri.jpg';
+  readonly hotDishesSectionBackgroundImage = 'assets/images/tabaka.jpg';
+  readonly barbecueSectionBackgroundImage = 'assets/images/chickenBbq.jpg';
+  readonly fishSectionBackgroundImage = 'assets/images/barabulka.jpg';
+  readonly alcoholSectionBackgroundImage = 'assets/images/redWine.jpg';
 }
