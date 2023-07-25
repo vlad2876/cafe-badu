@@ -67,6 +67,28 @@ export class BaseSectionService {
     ];
   }
 
+  getBreakfastSectionDishes(): IDish[] {
+    return [
+      {
+        imagePath: `${this.baseImagePath}/pancakes.jpg`,
+        dishName: 'breakfastSection.pancakes',
+        price: 5
+      }, {
+        imagePath: `${this.baseImagePath}/chishiBishi.jpg`,
+        dishName: 'breakfastSection.chishiBishi',
+        price: 5
+      }, {
+        imagePath: `${this.baseImagePath}/rice.jpg`,
+        dishName: 'breakfastSection.rice',
+        price: 5
+      }, {
+        imagePath: `${this.baseImagePath}/oatmeal.jpg`,
+        dishName: 'breakfastSection.oatmeal',
+        price: 5
+      }
+    ];
+  }
+
   getSoupSectionDishes(): IDish[] {
     return [
       {

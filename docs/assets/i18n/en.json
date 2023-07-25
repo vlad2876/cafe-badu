@@ -1,4 +1,11 @@
 {
+  "breakfastSection": {
+    "title": "Breakfast",
+    "pancakes": "Pancakes",
+    "chishiBishi": "Chishi-bishi",
+    "rice": "Rice",
+    "oatmeal": "Oatmeal"
+  },
   "saladsSection": {
     "title": "Salads and cold starters",
     "tomatoCucumber": "Tomato and cucumber salad",

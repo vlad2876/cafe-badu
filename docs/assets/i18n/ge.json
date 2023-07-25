@@ -1,4 +1,11 @@
 {
+  "breakfastSection": {
+    "title": "საუზმე",
+    "pancakes": "ბლინები",
+    "chishiBishi": "ჩიში-ბიში",
+    "rice": "ბრინჯი",
+    "oatmeal": "შვრიის ფაფა"
+  },
   "saladsSection": {
     "title": "სალათი და ცივი კერძები",
     "tomatoCucumber": "კიტრი-პომიდვრის სალათი",
