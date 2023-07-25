@@ -15,7 +15,6 @@ import { BarbecueSectionComponent } from './components/menu/barbecue-section/bar
 import { FishSectionComponent } from './components/menu/fish-section/fish-section.component';
 import { AlcoholSectionComponent } from './components/menu/alcohol-section/alcohol-section.component';
 import { BreakfastSectionComponent } from './components/menu/breakfast-section/breakfast-section.component';
-import {ImagePreloaderService} from "./shared/preload/image-preloader.service";
 
 @NgModule({
   declarations: [
@@ -38,7 +37,7 @@ import {ImagePreloaderService} from "./shared/preload/image-preloader.service";
     MatIconModule,
     AppRoutingModule
   ],
-  providers: [ImagePreloaderService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
