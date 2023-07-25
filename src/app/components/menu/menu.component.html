@@ -1,4 +1,9 @@
 <div class="menu-container">
+  <div class="menu-section" routerLink="breakfast" [style.background-image]="'url(' + breakfastSectionBackgroundImage + ')'">
+    <span class="section-name">
+      {{ 'breakfastSection.title' | translate }}
+    </span>
+  </div>
   <div class="menu-section" routerLink="salads" [style.background-image]="'url(' + saladsSectionBackgroundImage + ')'">
     <span class="section-name">
       {{ 'saladsSection.title' | translate }}

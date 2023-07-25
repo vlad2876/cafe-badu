@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent {
+  readonly breakfastSectionBackgroundImage = 'assets/images/pancakes.jpg';
   readonly saladsSectionBackgroundImage = 'assets/images/tomatoCucumber.jpg';
   readonly soupSectionBackgroundImage = 'assets/images/kharcho.jpg';
   readonly doughSectionBackgroundImage = 'assets/images/adjarianKhachapuri.jpg';

@@ -1,4 +1,11 @@
 {
+  "breakfastSection": {
+    "title": "Завтрак",
+    "pancakes": "Блинчики",
+    "chishiBishi": "Чиши-биши",
+    "rice": "Рис",
+    "oatmeal": "Овсяная каша"
+  },
   "saladsSection": {
     "title": "Cалаты и холодные закуски",
     "tomatoCucumber": "Салат из огурцов и помидоров",
@@ -28,5 +35,45 @@
     "adjarianKhachapuri": "Хачапури по-аджарски",
     "imeretianKhachapuri": "Хачапури по-имеретински",
     "megrelianKhachapuri": "Хачапури по-мегрельски"
+  },
+  "hotDishesSection": {
+    "title": "Горячие блюда",
+    "chashushuli": "Чашушули на кеци",
+    "ostri": "Остри на кеци",
+    "ojakhuri": "Оджахури на кеци",
+    "chakhokhbili": "Чахохбили из курицы",
+    "beans": "Фасоль в горшочке",
+    "chickenKiev": "Котлета по-киевски",
+    "dumplings": "Пельмени в горшочке",
+    "ajapsandal": "Аджапсандали",
+    "tabaka": "Табака",
+    "chkmeruli": "Чкмерули",
+    "frenchFries": "Картофель фри",
+    "friedSulguni": "Жареный сулгуни"
+  },
+  "barbecueSection": {
+    "title": "Шашлык",
+    "porkBbq": "Шашлык из свинины",
+    "chickenBbq": "Шашлык из курицы",
+    "grilledVegetables": "Овощи гриль"
+  },
+  "fishSection": {
+    "title": "Блюда из рыбы",
+    "troutSideDish": "Форель c гарниром",
+    "troutLemonJuice": "Запеченная форель в лимонном coке",
+    "friedTrout": "Жареная форель",
+    "barabulka": "Барабулька",
+    "mullet": "Кефаль"
+  },
+  "alcoholSection": {
+    "title": "Алкогольные напитки",
+    "redWine": "Красное вино (1 бокал)",
+    "whiteWine": "Белое вино (1 бокал)",
+    "chaChaSm": "Чача (100 г)",
+    "chaChaLg": "Чача (1 л)",
+    "cognacSm": "Коньяк (100 г)",
+    "cognacLg": "Коньяк (1 л)",
+    "argo": "Пиво Argo",
+    "herzog": "Пиво Herzog"
   }
 }

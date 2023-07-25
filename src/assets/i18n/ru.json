@@ -1,4 +1,11 @@
 {
+  "breakfastSection": {
+    "title": "Завтрак",
+    "pancakes": "Блинчики",
+    "chishiBishi": "Чиши-биши",
+    "rice": "Рис",
+    "oatmeal": "Овсяная каша"
+  },
   "saladsSection": {
     "title": "Cалаты и холодные закуски",
     "tomatoCucumber": "Салат из огурцов и помидоров",

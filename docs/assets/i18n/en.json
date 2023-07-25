@@ -1,4 +1,11 @@
 {
+  "breakfastSection": {
+    "title": "Breakfast",
+    "pancakes": "Pancakes",
+    "chishiBishi": "Chishi-bishi",
+    "rice": "Rice",
+    "oatmeal": "Oatmeal"
+  },
   "saladsSection": {
     "title": "Salads and cold starters",
     "tomatoCucumber": "Tomato and cucumber salad",
@@ -28,5 +35,45 @@
     "adjarianKhachapuri": "Adjarian khachapuri",
     "imeretianKhachapuri": "Imeretian khachapuri",
     "megrelianKhachapuri": "Megrelian khachapuri"
+  },
+  "hotDishesSection": {
+    "title": "Hot dishes",
+    "chashushuli": "Chashushuli",
+    "ostri": "Ostri",
+    "ojakhuri": "Ojakhuri",
+    "chakhokhbili": "Chakhokhbili",
+    "beans": "Beans in a pot",
+    "chickenKiev": "Chicken Kiev",
+    "dumplings": "Dumplings in a pot",
+    "ajapsandal": "Ajapsandal",
+    "tabaka": "Tabaka",
+    "chkmeruli": "Chkmeruli",
+    "frenchFries": "French fries",
+    "friedSulguni": "Fried sulguni"
+  },
+  "barbecueSection": {
+    "title": "Barbecue",
+    "porkBbq": "Pork BBQ",
+    "chickenBbq": "Chicken BBQ",
+    "grilledVegetables": "Grilled vegetables"
+  },
+  "fishSection": {
+    "title": "Fish",
+    "troutSideDish": "Trout with side dish",
+    "troutLemonJuice": "Baked trout fish in lemon juice",
+    "friedTrout": "Fried trout fish",
+    "barabulka": "Fish barabulka",
+    "mullet": "Mullet"
+  },
+  "alcoholSection": {
+    "title": "Alcoholic drinks",
+    "redWine": "Red wine (1 cup)",
+    "whiteWine": "White wine (1 cup)",
+    "chaChaSm": "Cha cha (100 g)",
+    "chaChaLg": "Cha cha (1 L)",
+    "cognacSm": "Cognac (100 g)",
+    "cognacLg": "Cognac (1 L)",
+    "argo": "Beer Argo",
+    "herzog": "Beer Herzog"
   }
 }
