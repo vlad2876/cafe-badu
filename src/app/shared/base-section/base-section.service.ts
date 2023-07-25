@@ -7,10 +7,6 @@ import { IDish } from '../../interfaces/dish.interface';
 export class BaseSectionService {
   private readonly baseImagePath = 'assets/images';
 
-  constructor() {
-    this.preloadImages();
-  }
-
   getDoughSectionDishes(): IDish[] {
     return [
       {
@@ -249,36 +245,5 @@ export class BaseSectionService {
         price: 5
       }
     ];
-  }
-
-  private preloadImages() {
-    this.getDoughSectionDishes().forEach(dish => {
-      const img = new Image();
-      img.src = dish.imagePath;
-    });
-    this.getSaladsSectionDishes().forEach(dish => {
-      const img = new Image();
-      img.src = dish.imagePath;
-    });
-    this.getSoupSectionDishes().forEach(dish => {
-      const img = new Image();
-      img.src = dish.imagePath;
-    });
-    this.getBreakfastSectionDishes().forEach(dish => {
-      const img = new Image();
-      img.src = dish.imagePath;
-    });
-    this.getHotSectionDishes().forEach(dish => {
-      const img = new Image();
-      img.src = dish.imagePath;
-    });
-    this.getAlcoholSectionDishes().forEach(dish => {
-      const img = new Image();
-      img.src = dish.imagePath;
-    });
-    this.getBarbecueSectionDishes().forEach(dish => {
-      const img = new Image();
-      img.src = dish.imagePath;
-    });
   }
 }
