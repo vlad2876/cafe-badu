@@ -65,6 +65,19 @@
     "barabulka": "Барабулька",
     "mullet": "Кефаль"
   },
+  "drinksSection": {
+    "title": "Напитки",
+    "tea": "Чай",
+    "coffee": "Кофе",
+    "lemonade": "Лимонад",
+    "waterSm": "Вода (0,5 л)",
+    "waterLg": "Вода (1 л)",
+    "nabeghlaviSm": "Набеглави (0,5 л)",
+    "nabeghlaviLg": "Набеглави (1 л)",
+    "naturalJuice": "Натуральный сок (1 л)",
+    "compoteSm": "Компот (1 стакан)",
+    "compoteLg": "Компот (1 л)"
+  },
   "alcoholSection": {
     "title": "Алкогольные напитки",
     "redWine": "Красное вино (1 бокал)",

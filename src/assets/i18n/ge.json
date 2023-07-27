@@ -65,6 +65,19 @@
     "barabulka": "ბარაბულკა",
     "mullet": "კეფალი"
   },
+  "drinksSection": {
+    "title": "სასმელები",
+    "tea": "ჩაი",
+    "coffee": "ყავა",
+    "lemonade": "ლიმონათი",
+    "waterSm": "წყალი (0,5 ლ)",
+    "waterLg": "წყალი (1 ლ)",
+    "nabeghlaviSm": "ნაბეღლავი (0,5 ლ)",
+    "nabeghlaviLg": "ნაბეღლავი (1 ლ)",
+    "naturalJuice": "ნატურალური წვენი (1 ლ)",
+    "compoteSm": "კომპოტი (1 მინა)",
+    "compoteLg": "კომპოტი (1 ლ)"
+  },
   "alcoholSection": {
     "title": "ალკოჰოლური სასმელები",
     "redWine": "წითელი ღვინო (1 ჭიქა)",

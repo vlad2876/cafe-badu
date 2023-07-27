@@ -13,5 +13,6 @@ export class MenuComponent {
   readonly hotDishesSectionBackgroundImage = 'assets/images/tabaka.jpg';
   readonly barbecueSectionBackgroundImage = 'assets/images/chickenBbq.jpg';
   readonly fishSectionBackgroundImage = 'assets/images/barabulka.jpg';
+  readonly drinksSectionBackgroundImage = 'assets/images/coffee.jpg';
   readonly alcoholSectionBackgroundImage = 'assets/images/redWine.jpg';
 }

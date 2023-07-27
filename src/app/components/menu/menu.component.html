@@ -34,6 +34,11 @@
       {{ 'fishSection.title' | translate }}
     </span>
   </div>
+  <div class="menu-section" routerLink="drinks" [style.background-image]="'url(' + drinksSectionBackgroundImage + ')'">
+    <span class="section-name">
+      {{ 'drinksSection.title' | translate }}
+    </span>
+  </div>
   <div class="menu-section" routerLink="alcohol" [style.background-image]="'url(' + alcoholSectionBackgroundImage + ')'">
     <span class="section-name">
       {{ 'alcoholSection.title' | translate }}

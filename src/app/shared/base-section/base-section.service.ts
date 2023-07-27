@@ -28,7 +28,7 @@ export class BaseSectionService {
       }, {
         imagePath: `${this.baseImagePath}/imeretianKhachapuri.jpg`,
         dishName: 'doughSection.imeretianKhachapuri',
-        price: 13
+        price: 15
       }, {
         imagePath: `${this.baseImagePath}/megrelianKhachapuri.jpg`,
         dishName: 'doughSection.megrelianKhachapuri',
@@ -62,7 +62,7 @@ export class BaseSectionService {
       }, {
         imagePath: `${this.baseImagePath}/caesar.jpg`,
         dishName: 'saladsSection.caesar',
-        price: 12
+        price: 15
       }
     ];
   }
@@ -72,7 +72,7 @@ export class BaseSectionService {
       {
         imagePath: `${this.baseImagePath}/pancakes.jpg`,
         dishName: 'breakfastSection.pancakes',
-        price: 5
+        price: 6
       }, {
         imagePath: `${this.baseImagePath}/chishiBishi.jpg`,
         dishName: 'breakfastSection.chishiBishi',
@@ -98,7 +98,7 @@ export class BaseSectionService {
       }, {
         imagePath: `${this.baseImagePath}/chickenSoup.jpg`,
         dishName: 'soupSection.chicken',
-        price: 5
+        price: 6
       }, {
         imagePath: `${this.baseImagePath}/gupta.jpg`,
         dishName: 'soupSection.gupta',
@@ -116,19 +116,19 @@ export class BaseSectionService {
       {
         imagePath: `${this.baseImagePath}/chashushuli.jpg`,
         dishName: 'hotDishesSection.chashushuli',
-        price: 12
+        price: 13
       }, {
         imagePath: `${this.baseImagePath}/ostri.jpg`,
         dishName: 'hotDishesSection.ostri',
-        price: 12
+        price: 13
       }, {
         imagePath: `${this.baseImagePath}/ojakhuri.jpg`,
         dishName: 'hotDishesSection.ojakhuri',
-        price: 10
+        price: 12
       }, {
         imagePath: `${this.baseImagePath}/chakhokhbili.jpg`,
         dishName: 'hotDishesSection.chakhokhbili',
-        price: 10
+        price: 12
       }, {
         imagePath: `${this.baseImagePath}/beans.jpg`,
         dishName: 'hotDishesSection.beans',
@@ -156,7 +156,7 @@ export class BaseSectionService {
       }, {
         imagePath: `${this.baseImagePath}/frenchFries.jpg`,
         dishName: 'hotDishesSection.frenchFries',
-        price: 4
+        price: 5
       }, {
         imagePath: `${this.baseImagePath}/friedSulguni.jpg`,
         dishName: 'hotDishesSection.friedSulguni',
@@ -200,11 +200,57 @@ export class BaseSectionService {
       }, {
         imagePath: `${this.baseImagePath}/barabulka.jpg`,
         dishName: 'fishSection.barabulka',
-        price: 0
+        price: 12
       }, {
         imagePath: `${this.baseImagePath}/mullet.jpg`,
         dishName: 'fishSection.mullet',
-        price: 0
+        price: 12
+      }
+    ];
+  }
+
+  getDrinksSectionDishes(): IDish[] {
+    return [
+      {
+        imagePath: `${this.baseImagePath}/tea.jpg`,
+        dishName: 'drinksSection.tea',
+        price: 2
+      }, {
+        imagePath: `${this.baseImagePath}/coffee.jpg`,
+        dishName: 'drinksSection.coffee',
+        price: 2
+      }, {
+        imagePath: `${this.baseImagePath}/lemonade.jpg`,
+        dishName: 'drinksSection.lemonade',
+        price: 3
+      }, {
+        imagePath: `${this.baseImagePath}/waterSm.jpg`,
+        dishName: 'drinksSection.waterSm',
+        price: 2
+      }, {
+        imagePath: `${this.baseImagePath}/waterLg.jpg`,
+        dishName: 'drinksSection.waterLg',
+        price: 3
+      }, {
+        imagePath: `${this.baseImagePath}/nabeghlaviSm.jpg`,
+        dishName: 'drinksSection.nabeghlaviSm',
+        price: 2
+      }, {
+        imagePath: `${this.baseImagePath}/nabeghlaviLg.jpg`,
+        dishName: 'drinksSection.nabeghlaviLg',
+        price: 3
+      }, {
+        imagePath: `${this.baseImagePath}/naturalJuice.jpg`,
+        dishName: 'drinksSection.naturalJuice',
+        price: 7
+      }, {
+        imagePath: `${this.baseImagePath}/compoteSm.jpg`,
+        dishName: 'drinksSection.compoteSm',
+        price: 2
+      }, {
+        imagePath: `${this.baseImagePath}/compoteLg.jpg`,
+        dishName: 'drinksSection.compoteLg',
+        price: 7
       }
     ];
   }

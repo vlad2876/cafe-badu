@@ -65,6 +65,19 @@
     "barabulka": "Fish barabulka",
     "mullet": "Mullet"
   },
+  "drinksSection": {
+    "title": "Drinks",
+    "tea": "Tea",
+    "coffee": "Coffee",
+    "lemonade": "Lemonade",
+    "waterSm": "Water (0,5 L)",
+    "waterLg": "Water (1 L)",
+    "nabeghlaviSm": "Nabeghlavi (0,5 L)",
+    "nabeghlaviLg": "Nabeghlavi (1 L)",
+    "naturalJuice": "Natural juice (1 L)",
+    "compoteSm": "Compote (1 cup)",
+    "compoteLg": "Compote (1 L)"
+  },
   "alcoholSection": {
     "title": "Alcoholic drinks",
     "redWine": "Red wine (1 cup)",

@@ -9,6 +9,7 @@ import {BarbecueSectionComponent} from "./components/menu/barbecue-section/barbe
 import {FishSectionComponent} from "./components/menu/fish-section/fish-section.component";
 import {AlcoholSectionComponent} from "./components/menu/alcohol-section/alcohol-section.component";
 import {BreakfastSectionComponent} from "./components/menu/breakfast-section/breakfast-section.component";
+import {DrinksSectionComponent} from "./components/menu/drinks-section/drinks-section.component";
 
 const routes: Routes = [
   {path: 'menu', component: MenuComponent},
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path: 'menu/hot-dishes', component: HotDishesSectionComponent},
   {path: 'menu/barbecue', component: BarbecueSectionComponent},
   {path: 'menu/fish', component: FishSectionComponent},
+  {path: 'menu/drinks', component: DrinksSectionComponent},
   {path: 'menu/alcohol', component: AlcoholSectionComponent},
   {path: '', redirectTo: 'menu', pathMatch: 'full'},
   {path: '**', redirectTo: 'menu'}
